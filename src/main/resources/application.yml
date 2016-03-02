@@ -9,6 +9,9 @@ zuul:
     images:
       path: /image/**
       url: http://httpbin.org/image
+    user-agent:
+      path: /user-agent/**
+      url: http://httpbin.org/user-agent
 
 eureka:
   client:
